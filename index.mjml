@@ -25,17 +25,24 @@
     </mj-style>
 
     <mj-style inline="inline">
-
     </mj-style>
   </mj-head>
 
-  <mj-body>
+  <mj-body width="640px" background-color="#ffffff">
 
     <mj-raw>
       <!-- Top Bar -->
     </mj-raw>
-    <mj-section>
+    <mj-section full-width="full-width" background-color="#000000" padding="10px 12px">
       <mj-column>
+        <mj-text align="left">
+          <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;">PICTURES OF THE YEAR</a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="right">
+          <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;">VIEW ONLINE</a>
+        </mj-text>
       </mj-column>
     </mj-section>
 
