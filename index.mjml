@@ -35,12 +35,12 @@
     </mj-raw>
     <mj-section full-width="full-width" background-color="#000000" padding="10px 12px">
       <mj-column>
-        <mj-text align="left">
+        <mj-text align="left" mj-class="heading">
           <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;">PICTURES OF THE YEAR</a>
         </mj-text>
       </mj-column>
       <mj-column>
-        <mj-text align="right">
+        <mj-text align="right" mj-class="heading">
           <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;">VIEW ONLINE</a>
         </mj-text>
       </mj-column>
@@ -49,8 +49,17 @@
     <mj-raw>
       <!-- Header -->
     </mj-raw>
-    <mj-section>
+    <mj-section padding="45px 0 60px">
       <mj-column>
+        <mj-image src="assets/logo.png" alt="National Geographic logo" title="National Geographic logo" width="200px" href="#" target="_blank" padding="20px 0 30px" />
+        <mj-text mj-class="heading" color="#000000" align="center" font-size="30px" line-height="32px" font-weight="bold" letter-spacing="1px" padding-bottom="10px">
+          A LOST CITY, NEW WORLDS,
+          <br>
+          AN ALZHEIMER’S BREAKTHROUGH
+        </mj-text>
+        <mj-text mj-class="sub-heading" font-size="17px" line-height="18px" color="#000000" letter-spacing=".5px" padding-top="15px" align="center">
+          Wednesday, December 6, 2023
+        </mj-text>
       </mj-column>
     </mj-section>
 
