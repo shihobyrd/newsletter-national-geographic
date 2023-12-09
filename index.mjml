@@ -1,10 +1,122 @@
 <mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text padding="0" />
+      <mj-class name="heading" font-family="CenturyGothic, AppleGothic, 'Gill Sans', 'Gill Sans MT', sans-serif" />
+      <mj-class name="sub-heading" font-family="Helvetica, Arial, sans-serif" />
+      <mj-class name="text" font-family="Georgia,'Times New Roman', Times,serif;" />
+    </mj-attributes>
+
+    <mj-title>Top discoveries of 2023: An Alzheimer's breakthrough, a lost city, 6 new planets, T. rex's lips, and more.</mj-title>
+
+    <mj-preview>Top discoveries of 2023: An Alzheimer's breakthrough, a lost city, 6 new planets, T. rex's lips, and more.
+    </mj-preview>
+
+    <mj-style>
+      html {
+        box-sizing: border-box;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+
+    </mj-style>
+  </mj-head>
+
   <mj-body>
 
     <mj-raw>
-      <!--  -->
+      <!-- Top Bar -->
     </mj-raw>
     <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Header -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Article 1 -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Article 2 -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Stories We're Following -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Article 3 -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Article 4 -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Article 5 -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Soundtrack, Curator, and Editor -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Banner -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Footer -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+      </mj-column>
     </mj-section>
 
   </mj-body>
