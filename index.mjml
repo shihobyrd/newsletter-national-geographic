@@ -117,8 +117,26 @@
     <mj-raw>
       <!-- Article 2 -->
     </mj-raw>
-    <mj-section>
+    <mj-section padding="0">
       <mj-column>
+        <mj-image src="assets/scuba-diver.jpg" alt="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." title="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." width="640px" padding="20px 0 0 0" href="#" target="_blank" />
+        <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
+          PHOTOGRAPH COURTESY MINISTERO DELLA CULTURA
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="600px">
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 0 10px 0">
+          <br>
+          <strong>The lost city:</strong> You’d think centuries of archaeology would have shown us all we need to know about this planet already, but new technology is fueling major discoveries.
+          <br>
+          <br>
+          Among 2023's breakthroughs: a lost Mayan city was uncovered; a submerged Roman temple was found (the altar, above); and a cave near the Dead Sea yielded remarkably well-preserved swords from thousands of years ago. <a href="#" target="_blank" class="text-link"><strong>Catch the new discoveries</strong></a>.
+          <br>
+          <br>
+          <em>And please consider getting our digital report and magazine <a href="#" target="_blank" class="text-link"><strong>by subscribing here</strong></a>.</em>
+        </mj-text>
       </mj-column>
     </mj-section>
 
