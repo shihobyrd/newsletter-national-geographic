@@ -86,33 +86,31 @@
     <mj-raw>
       <!-- Article 1 -->
     </mj-raw>
-    <mj-wrapper>
-      <mj-section padding="0">
-        <mj-column>
-          <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="center" font-weight="normal" padding="0 0 8px 0">
-            <em>In <strong>today’s newsletter</strong>, we plumb the amazing <a href="#" target="_blank" class="text-link">medical</a>, <a href="#" target="_blank" class="text-link">archaeological</a>, and <a href="#" target="_blank" class="text-link">scientific</a> breakthroughs of the year. Plus, do tea and chicken soup really <a href="#" target="_blank" class="text-link">help a cold</a>?</em>
-          </mj-text>
-          <mj-image src="assets/insect-brain.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="20px 0 0 0" href="#" target="_blank" />
-          <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
-            ILLUSTRATION BY MICHAEL WINDING ET AL., 2023
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column width="600px">
-          <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 0 10px 0">
-            <br>
-            <strong>2023 finally gave us a treatment</strong> for a disease enfeebling millions of people. The year also brought the power of AI to identify people at higher risk for prostate cancer, demonstrated the mapping of an insect’s brain (above)—and witnessed mice created in an untraditional manner.
-            <br>
-            <br>
-            Discoveries abounded in medicine as the world rebounded from COVID-19. Here’s a <a href="#" target="_blank" class="text-link"><strong>look at those breakthroughs</strong></a>, followed by discoveries in archaeology and science.
-          </mj-text>
-          <mj-text align="center" padding="20px 0">
-            <a href="#" target="_blank" class="button">Read On</a>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="center" font-weight="normal" padding="0 0 8px 0">
+          <em>In <strong>today’s newsletter</strong>, we plumb the amazing <a href="#" target="_blank" class="text-link">medical</a>, <a href="#" target="_blank" class="text-link">archaeological</a>, and <a href="#" target="_blank" class="text-link">scientific</a> breakthroughs of the year. Plus, do tea and chicken soup really <a href="#" target="_blank" class="text-link">help a cold</a>?</em>
+        </mj-text>
+        <mj-image src="assets/insect-brain.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="20px 0 0 0" href="#" target="_blank" />
+        <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
+          ILLUSTRATION BY MICHAEL WINDING ET AL., 2023
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column width="600px">
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 0 10px 0">
+          <br>
+          <strong>2023 finally gave us a treatment</strong> for a disease enfeebling millions of people. The year also brought the power of AI to identify people at higher risk for prostate cancer, demonstrated the mapping of an insect’s brain (above)—and witnessed mice created in an untraditional manner.
+          <br>
+          <br>
+          Discoveries abounded in medicine as the world rebounded from COVID-19. Here’s a <a href="#" target="_blank" class="text-link"><strong>look at those breakthroughs</strong></a>, followed by discoveries in archaeology and science.
+        </mj-text>
+        <mj-text align="center" padding="20px 0">
+          <a href="#" target="_blank" class="button">Read On</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
     <mj-raw>
       <!-- Article 2 -->
@@ -125,7 +123,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section padding="0">
       <mj-column width="600px">
         <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 0 10px 0">
           <br>
@@ -143,10 +141,177 @@
     <mj-raw>
       <!-- Stories We're Following -->
     </mj-raw>
-    <mj-section>
+    <mj-section padding="20px 0">
       <mj-column>
+        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="0 0 10px 0">
+          STORIES WE’RE FOLLOWING
+        </mj-text>
+        <mj-image src="assets/Tyrannosaurus.jpg" alt="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." title="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." width="640px" padding="0" href="#" target="_blank" />
+        <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
+          ILLUSTRATION BY MARK P. WITTON
+        </mj-text>
       </mj-column>
     </mj-section>
+
+    <mj-wrapper padding="0 0 20px 0">
+      <mj-section padding="0" background-color="#ececec">
+        <mj-group>
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+            <mj-text height="80px" padding="0">&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+            <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
+              <a href="#" target="_blank" class="text-link">Six new planets found; among 2023’s top new scientific discoveries</a> <em>(pictured above, the T. rex may have had lips!)</em>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 0 20px 0">
+      <mj-section padding="0" background-color="#ececec">
+        <mj-group>
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+            <mj-text height="80px" padding="0">&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+            <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
+              <a href="#" target="_blank" class="text-link">800,000 years ago, a huge meteorite hit Earth. Scientists may have just found where.</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 0 20px 0">
+      <mj-section padding="0" background-color="#ececec">
+        <mj-group>
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+            <mj-text height="80px" padding="0">&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+            <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
+              <a href="#" target="_blank" class="text-link">Hundreds of elephants have mysteriously died since 2020. We may finally know why.</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 0 20px 0">
+      <mj-section padding="0" background-color="#ececec">
+        <mj-group>
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+            <mj-text height="80px" padding="0">&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+            <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
+              <a href="#" target="_blank" class="text-link">Japan’s long preparation for the ‘sneak attack’ on Pearl Harbor</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 0 20px 0">
+      <mj-section padding="0" background-color="#ececec">
+        <mj-group>
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+            <mj-text height="80px" padding="0">&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+            <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
+              <a href="#" target="_blank" class="text-link">He spent 50 days on a deserted island. Then he found a message in a bottle.</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 0 20px 0">
+      <mj-section padding="0" background-color="#ececec">
+        <mj-group>
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+            <mj-text height="80px" padding="0">&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+            <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
+              <a href="#" target="_blank" class="text-link">What archaeology can tell us about the real <strong>Jesus</strong></a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 0 20px 0">
+      <mj-section padding="0" background-color="#ececec">
+        <mj-group>
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+            <mj-text height="80px" padding="0">&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+            <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
+              <a href="#" target="_blank" class="text-link">Why evolution brought us curly hair</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 0 20px 0">
+      <mj-section padding="0" background-color="#ececec">
+        <mj-group>
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+            <mj-text height="80px" padding="0">&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+            <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
+              <a href="#" target="_blank" class="text-link">These foods will help fight inflammation</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 0 20px 0">
+      <mj-section padding="0" background-color="#ececec">
+        <mj-group>
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+            <mj-text height="80px" padding="0">&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+            <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
+              <a href="#" target="_blank" class="text-link">Food allergies are on the rise</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 0 20px 0">
+      <mj-section padding="0" background-color="#ececec">
+        <mj-group>
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+            <mj-text height="80px" padding="0">&nbsp;
+            </mj-text>
+          </mj-column>
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+            <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
+              <a href="#" target="_blank" class="text-link">New treatments may finally promise a cure for frozen shoulder, a painful affliction that mostly affects women</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
 
     <mj-raw>
       <!-- Article 3 -->
