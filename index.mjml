@@ -347,11 +347,11 @@
     <mj-section padding="0">
       <mj-column>
         <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0">
-          IN THE SPOTLIGHT
+          PHOTO OF THE DAY
         </mj-text>
         <mj-image src="assets/Nefertiti.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="0" href="#" target="_blank" />
         <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
-          PHOTO OF THE DAY
+          BPK/SCALA, FLORENCE
         </mj-text>
       </mj-column>
     </mj-section>
@@ -372,8 +372,28 @@
     <mj-raw>
       <!-- Article 5 -->
     </mj-raw>
-    <mj-section>
+    <mj-section padding="0">
       <mj-column>
+        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0">
+          WHAT’S AHEAD IN THE NIGHT SKY?
+        </mj-text>
+        <mj-image src="assets/solar-eclipse.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="0" href="#" target="_blank" />
+        <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
+          PHOTOGRAPH BY BEN HORTON, NAT GEO IMAGE COLLECTION
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column width="600px">
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="20px 0 15px 0">
+          <br>
+          <strong>9 must-see night sky events in 2024:</strong> Mark your calendar now for an array of celestial wonders, including <a href="#" target="_blank" class="text-link"><strong>two solar eclipses</strong></a>, a pair of comets, and numerous planetary encounters, writes our night sky specialist, <strong>Andrew Fazekas</strong>.
+          <br>
+          <strong>Related:</strong> <a href="#" target="_blank" class="text-link">What is a solar eclipse</a>?
+        </mj-text>
+        <mj-text align="center" padding="20px 0">
+          <a href="#" target="_blank" class="button">LOOK UP!</a>
+        </mj-text>
       </mj-column>
     </mj-section>
 
