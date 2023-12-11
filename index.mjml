@@ -344,8 +344,28 @@
     <mj-raw>
       <!-- Article 4 -->
     </mj-raw>
-    <mj-section>
+    <mj-section padding="0">
       <mj-column>
+        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0">
+          IN THE SPOTLIGHT
+        </mj-text>
+        <mj-image src="assets/Nefertiti.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="0" href="#" target="_blank" />
+        <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
+          PHOTO OF THE DAY
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column width="600px">
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="20px 0 16px 0">
+          <br>
+          <strong>Much more than a pretty face:</strong> On this day in 1912, a bust of <strong>Nefertiti</strong>—a former queen and one of the most mysterious and powerful women in ancient Egypt—was discovered during an excavation among the ruins at Amarna. <a href="#" target="_blank" class="text-link"><strong>This stunning bust</strong></a> (above) is perhaps the most famous image of a woman whom some scholars believe ruled as pharaoh after the death of husband <strong>Amenhotep IV</strong>.
+          <br>
+          (Above, ingredients for a green smoothie.)
+        </mj-text>
+        <mj-text align="center" padding="20px 0">
+          <a href="#" target="_blank" class="button">QUEEN NEFERTITI</a>
+        </mj-text>
       </mj-column>
     </mj-section>
 
