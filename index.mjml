@@ -22,6 +22,16 @@
       *:after {
         box-sizing: inherit;
       }
+
+      @media only screen and (max-width : 480px) {
+        .mobile-center div {
+          text-align: center !important;
+        }
+
+        a.hide {
+          display: none;
+        }
+      }
     </mj-style>
 
     <mj-style inline="inline">
@@ -65,14 +75,14 @@
       <!-- Top Bar -->
     </mj-raw>
     <mj-section full-width="full-width" background-color="#000000" padding="10px 12px">
-      <mj-column>
+      <mj-column css-class="mobile-center">
         <mj-text align="left" mj-class="heading">
           <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;">PICTURES OF THE YEAR</a>
         </mj-text>
       </mj-column>
       <mj-column>
         <mj-text align="right" mj-class="heading">
-          <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;">VIEW ONLINE</a>
+          <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;" class="hide">VIEW ONLINE</a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -426,69 +436,12 @@
       <!-- Banner -->
     </mj-raw>
     <mj-section padding="0 0 20px 0">
-      <mj-column>
+      <mj-column width="100%">
         <mj-image src="assets/desktop-banner.jpg" href="#" target="_blank" padding="0" />
       </mj-column>
     </mj-section>
 
-    <mj-raw>
-      <!-- Footer -->
-    </mj-raw>
-    <mj-wrapper full-width="full-width" background-color="#000000" padding="0">
-      <mj-section padding="0">
-        <mj-column width="640px" padding="40px 0 0 0">
-          <mj-text vertical-align="middle" align="center">
-            <a href="#" target="_blank" class="footer-link" style="border-right: 3px solid #ffcc00;">SHOP</a>
-            <a href="#" target="_blank" class="footer-link" style="border-right: 3px solid #ffcc00;">DONATE</a>
-            <a href="#" target="_blank" class="footer-link" style="border-right: 3px solid #ffcc00;">SUBSCRIBE</a>
-            <a href="#" target="_blank" class="footer-link">TRAVEL</a>
-          </mj-text>
-        </mj-column>
-      </mj-section>
+    <mj-include path="./components/footer.mjml" />
 
-      <mj-section padding="0">
-        <mj-column width="640px" padding="35px 0 35px 0">
-          <mj-table padding="0">
-            <tr>
-              <td align="center" padding="5px 0 0 0">
-                <a href="#" target="_blank">
-                  <image src="/assets/facebook.png" alt="Facebook" title="Facebook" padding="0" width="28px">
-                </a>
-                <a href="#" target="_blank">
-                  <image src="/assets/twitter.png" alt="Twitter" title="Twitter" padding="0" width="28px">
-                </a>
-                <a href="#" target="_blank">
-                  <image src="/assets/instagram.png" alt="Instagram" title="Instagram" padding="0" width="28px">
-                </a>
-              </td>
-            </tr>
-          </mj-table>
-      </mj-section>
-
-      <mj-section padding="0 0 50px 0">
-        <mj-column width="500px">
-          <mj-text mj-class="text" color="#cccccc" font-size="10px" line-height="16px" font-weight="normal" align="center">
-            Clicking on the Facebook, Twitter, Instagram, and National Geographic Channel links will take you away from our National Geographic Partners site where different terms of use and privacy policy apply.
-            <br>
-            <br>
-            This email was sent to: <a href="#" target="_blank" style="color: #1155cc; text-decoration: none;">s***********5@gmail.com</a>. Please do not reply to this email as this address is not monitored.
-            <br>
-            <br>
-            This email contains an advertisement from:
-            <br>
-            National Geographic | 1145 17th Street, N.W. | Washington, D.C. 20036
-            <br>
-            <br>
-            <a href="#" target="_blank" class="text-link" style="color: #cccccc;"><strong>Stop all types of future commercial</strong></a> email from National Geographic regarding its products, services, or experiences.
-            <br>
-            <br>
-            <a href="#" target="_blank" class="text-link" style="color: #cccccc;"><strong>Manage all email preferences</strong></a> with the Walt Disney Family of Companies.
-            <br>
-            <br>
-            © 2023 National Geographic Partners, LLC, All rights reserved.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
   </mj-body>
 </mjml>
