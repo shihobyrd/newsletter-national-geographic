@@ -42,6 +42,13 @@
           line-height: 16px !important;
         }
 
+        .mobile-text div {
+          font-size: 14px !important;
+          line-height: 20px !important;
+          padding: 0 25px 0 25px;
+        }
+
+        .credit-text div {}
 
 
       }
@@ -122,18 +129,18 @@
     </mj-raw>
     <mj-section padding="0">
       <mj-column>
-        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="center" font-weight="normal" padding="0 0 8px 0">
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="center" font-weight="normal" padding="0 0 8px 0" css-class="mobile-text">
           <em>In <strong>today’s newsletter</strong>, we plumb the amazing <a href="#" target="_blank" class="text-link">medical</a>, <a href="#" target="_blank" class="text-link">archaeological</a>, and <a href="#" target="_blank" class="text-link">scientific</a> breakthroughs of the year. Plus, do tea and chicken soup really <a href="#" target="_blank" class="text-link">help a cold</a>?</em>
         </mj-text>
         <mj-image src="assets/insect-brain.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="20px 0 0 0" href="#" target="_blank" />
-        <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
+        <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0" css-class="credit-text">
           ILLUSTRATION BY MICHAEL WINDING ET AL., 2023
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="0">
       <mj-column width="600px">
-        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 0 10px 0">
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 0 10px 0" css-class="mobile-text">
           <br>
           <strong>2023 finally gave us a treatment</strong> for a disease enfeebling millions of people. The year also brought the power of AI to identify people at higher risk for prostate cancer, demonstrated the mapping of an insect’s brain (above)—and witnessed mice created in an untraditional manner.
           <br>
@@ -159,7 +166,7 @@
     </mj-section>
     <mj-section padding="0">
       <mj-column width="600px">
-        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 0 10px 0">
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 0 10px 0" css-class="mobile-text">
           <br>
           <strong>The lost city:</strong> You’d think centuries of archaeology would have shown us all we need to know about this planet already, but new technology is fueling major discoveries.
           <br>
