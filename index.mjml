@@ -14,42 +14,70 @@
 
     <mj-style>
       html {
-        box-sizing: border-box;
+      box-sizing: border-box;
       }
 
       *,
       *:before,
       *:after {
-        box-sizing: inherit;
+      box-sizing: inherit;
+      }
+
+      @media only screen and (max-width : 659.99px) {
+      .stories-wrapper {
+      padding: 0 20px 0px 20px !important;
+      }
+
+      .hide-yellow {
+      width: 0% !important;
+      }
+
+      .mobile-full-gray {
+      width: 100% !important;
+      }
+
+      .mobile-full-gray table>tbody>tr>td>table>tbody>tr>td>div {
+      padding: 15px !important;
+      }
+
+      .mobile-full-gray div {
+      text-align: center !important;
+      font-size: 14px !important;
+      line-height: 22px !important;
+      }
       }
 
       @media only screen and (max-width : 480px) {
-        .mobile-center div {
-          text-align: center !important;
-        }
+      .mobile-center div {
+      text-align: center !important;
+      }
 
-        a.hide {
-          display: none;
-        }
+      a.hide {
+      display: none;
+      }
 
-        .header-title div {
-          font-size: 28px !important;
-          line-height: 30px !important;
-        }
+      .header-title div {
+      font-size: 28px !important;
+      line-height: 30px !important;
+      }
 
-        .header-date div {
-          font-size: 15px !important;
-          line-height: 16px !important;
-        }
+      .header-date div {
+      font-size: 15px !important;
+      line-height: 16px !important;
+      }
 
-        .mobile-text div {
-          font-size: 14px !important;
-          line-height: 20px !important;
-          padding: 0 25px 0 25px;
-        }
+      .mobile-text div {
+      font-size: 14px !important;
+      line-height: 20px !important;
+      padding: 0 25px 0 25px;
+      }
 
-        .credit-text div {}
+      .credit-text div {}
 
+      .section-title div {
+      font-size: 20px !important;
+      line-height: 28px !important;
+      }
 
       }
     </mj-style>
@@ -184,7 +212,7 @@
     </mj-raw>
     <mj-section padding="20px 0">
       <mj-column>
-        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="0 0 10px 0">
+        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="0 0 10px 0" css-class="section-title">
           STORIES WE’RE FOLLOWING
         </mj-text>
         <mj-image src="assets/Tyrannosaurus.jpg" alt="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." title="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." width="640px" padding="0" href="#" target="_blank" />
@@ -194,14 +222,14 @@
       </mj-column>
     </mj-section>
 
-    <mj-wrapper padding="0 0 20px 0">
+    <mj-wrapper padding="0 0 20px 0" css-class="stories-wrapper">
       <mj-section padding="0" background-color="#ececec">
         <mj-group>
-          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle" css-class="hide-yellow">
             <mj-text height="80px" padding="0">&nbsp;
             </mj-text>
           </mj-column>
-          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle" css-class="mobile-full-gray">
             <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
               <a href="#" target="_blank" class="text-link">Six new planets found; among 2023’s top new scientific discoveries</a> <em>(pictured above, the T. rex may have had lips!)</em>
             </mj-text>
@@ -210,14 +238,14 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper padding="0 0 20px 0">
+    <mj-wrapper padding="0 0 20px 0" css-class="stories-wrapper">
       <mj-section padding="0" background-color="#ececec">
         <mj-group>
-          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle" css-class="hide-yellow">
             <mj-text height="80px" padding="0">&nbsp;
             </mj-text>
           </mj-column>
-          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle" css-class="mobile-full-gray">
             <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
               <a href="#" target="_blank" class="text-link">800,000 years ago, a huge meteorite hit Earth. Scientists may have just found where.</a>
             </mj-text>
@@ -226,14 +254,14 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper padding="0 0 20px 0">
+    <mj-wrapper padding="0 0 20px 0" css-class="stories-wrapper">
       <mj-section padding="0" background-color="#ececec">
         <mj-group>
-          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle" css-class="hide-yellow">
             <mj-text height="80px" padding="0">&nbsp;
             </mj-text>
           </mj-column>
-          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle" css-class="mobile-full-gray">
             <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
               <a href="#" target="_blank" class="text-link">Hundreds of elephants have mysteriously died since 2020. We may finally know why.</a>
             </mj-text>
@@ -242,14 +270,14 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper padding="0 0 20px 0">
+    <mj-wrapper padding="0 0 20px 0" css-class="stories-wrapper">
       <mj-section padding="0" background-color="#ececec">
         <mj-group>
-          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle" css-class="hide-yellow">
             <mj-text height="80px" padding="0">&nbsp;
             </mj-text>
           </mj-column>
-          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle" css-class="mobile-full-gray">
             <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
               <a href="#" target="_blank" class="text-link">Japan’s long preparation for the ‘sneak attack’ on Pearl Harbor</a>
             </mj-text>
@@ -258,14 +286,14 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper padding="0 0 20px 0">
+    <mj-wrapper padding="0 0 20px 0" css-class="stories-wrapper">
       <mj-section padding="0" background-color="#ececec">
         <mj-group>
-          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle" css-class="hide-yellow">
             <mj-text height="80px" padding="0">&nbsp;
             </mj-text>
           </mj-column>
-          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle" css-class="mobile-full-gray">
             <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
               <a href="#" target="_blank" class="text-link">He spent 50 days on a deserted island. Then he found a message in a bottle.</a>
             </mj-text>
@@ -274,14 +302,14 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper padding="0 0 20px 0">
+    <mj-wrapper padding="0 0 20px 0" css-class="stories-wrapper">
       <mj-section padding="0" background-color="#ececec">
         <mj-group>
-          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle" css-class="hide-yellow">
             <mj-text height="80px" padding="0">&nbsp;
             </mj-text>
           </mj-column>
-          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle" css-class="mobile-full-gray">
             <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
               <a href="#" target="_blank" class="text-link">What archaeology can tell us about the real <strong>Jesus</strong></a>
             </mj-text>
@@ -290,14 +318,14 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper padding="0 0 20px 0">
+    <mj-wrapper padding="0 0 20px 0" css-class="stories-wrapper">
       <mj-section padding="0" background-color="#ececec">
         <mj-group>
-          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle" css-class="hide-yellow">
             <mj-text height="80px" padding="0">&nbsp;
             </mj-text>
           </mj-column>
-          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle" css-class="mobile-full-gray">
             <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
               <a href="#" target="_blank" class="text-link">Why evolution brought us curly hair</a>
             </mj-text>
@@ -306,14 +334,14 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper padding="0 0 20px 0">
+    <mj-wrapper padding="0 0 20px 0" css-class="stories-wrapper">
       <mj-section padding="0" background-color="#ececec">
         <mj-group>
-          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle" css-class="hide-yellow">
             <mj-text height="80px" padding="0">&nbsp;
             </mj-text>
           </mj-column>
-          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle" css-class="mobile-full-gray">
             <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
               <a href="#" target="_blank" class="text-link">These foods will help fight inflammation</a>
             </mj-text>
@@ -322,14 +350,14 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper padding="0 0 20px 0">
+    <mj-wrapper padding="0 0 20px 0" css-class="stories-wrapper">
       <mj-section padding="0" background-color="#ececec">
         <mj-group>
-          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle" css-class="hide-yellow">
             <mj-text height="80px" padding="0">&nbsp;
             </mj-text>
           </mj-column>
-          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle" css-class="mobile-full-gray">
             <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
               <a href="#" target="_blank" class="text-link">Food allergies are on the rise</a>
             </mj-text>
@@ -338,14 +366,14 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper padding="0 0 20px 0">
+    <mj-wrapper padding="0 0 20px 0" css-class="stories-wrapper">
       <mj-section padding="0" background-color="#ececec">
         <mj-group>
-          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle">
+          <mj-column width="60px" background-color="#ffcc00" vertical-align="middle" css-class="hide-yellow">
             <mj-text height="80px" padding="0">&nbsp;
             </mj-text>
           </mj-column>
-          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle">
+          <mj-column width="580px" background-color="#ececec" padding="15px 10px" vertical-align="middle" css-class="mobile-full-gray">
             <mj-text mj-class="sub-heading" font-weight="normal" font-size="16px" color="#000000" line-height="25px" letter-spacing="2px" align="left">
               <a href="#" target="_blank" class="text-link">New treatments may finally promise a cure for frozen shoulder, a painful affliction that mostly affects women</a>
             </mj-text>
