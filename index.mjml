@@ -190,7 +190,7 @@
         <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="center" font-weight="normal" padding="0 20px 8px 20px" css-class="mobile-text">
           <em>In <strong>today’s newsletter</strong>, we plumb the amazing <a href="#" target="_blank" class="text-link">medical</a>, <a href="#" target="_blank" class="text-link">archaeological</a>, and <a href="#" target="_blank" class="text-link">scientific</a> breakthroughs of the year. Plus, do tea and chicken soup really <a href="#" target="_blank" class="text-link">help a cold</a>?</em>
         </mj-text>
-        <mj-image src="assets/insect-brain.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="20px 0 0 0" href="#" target="_blank" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/insect-brain-min.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="20px 0 0 0" href="#" target="_blank" />
         <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0" css-class="credit-text">
           ILLUSTRATION BY MICHAEL WINDING ET AL., 2023
         </mj-text>
@@ -216,7 +216,7 @@
     </mj-raw>
     <mj-section padding="0">
       <mj-column>
-        <mj-image src="assets/scuba-diver.jpg" alt="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." title="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." width="640px" padding="20px 0 0 0" href="#" target="_blank" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/scuba-diver-min.jpg" alt="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." title="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." width="640px" padding="20px 0 0 0" href="#" target="_blank" />
         <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
           PHOTOGRAPH COURTESY MINISTERO DELLA CULTURA
         </mj-text>
@@ -245,7 +245,7 @@
         <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="0 0 10px 0" css-class="section-title">
           STORIES WE’RE FOLLOWING
         </mj-text>
-        <mj-image src="assets/Tyrannosaurus.jpg" alt="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." title="An archaeologist waves away sediment from the remains of a white marble altar in the waters off Puteoli, Italy." width="640px" padding="0" href="#" target="_blank" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/Tyrannosaurus-min.jpg" alt="A multi-institutional team of paleontologists has proposed that Tyrannosaurus rex and other carnivorous dinosaurs likely had lips that covered their sharp teeth, as seen in this illustration" title="A multi-institutional team of paleontologists has proposed that Tyrannosaurus rex and other carnivorous dinosaurs likely had lips that covered their sharp teeth, as seen in this illustration" width="640px" padding="0" href="#" target="_blank" />
         <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
           ILLUSTRATION BY MARK P. WITTON
         </mj-text>
@@ -420,7 +420,7 @@
         <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0" css-class="section-title div">
           IN THE SPOTLIGHT
         </mj-text>
-        <mj-image src="assets/blender.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="0" href="#" target="_blank" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/blender-min.jpg" alt="Ingredients for green spinach kale apple honey smoothie in glass blender on linen table cloth with ingredients above." title="Ingredients for green spinach kale apple honey smoothie in glass blender on linen table cloth with ingredients above." width="640px" padding="0" href="#" target="_blank" />
         <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
           PHOTOGRAPH BY NATASHA BREEN, REDA&CO/GETTY IMAGES
         </mj-text>
@@ -448,7 +448,7 @@
         <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0" css-class="section-title div">
           PHOTO OF THE DAY
         </mj-text>
-        <mj-image src="assets/Nefertiti.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="0" href="#" target="_blank" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/Nefertiti-min.jpg" alt="A bust of Nefertiti" title="A bust of Nefertiti" width="640px" padding="0" href="#" target="_blank" />
         <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
           BPK/SCALA, FLORENCE
         </mj-text>
@@ -476,7 +476,7 @@
         <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0" css-class="section-title div">
           WHAT’S AHEAD IN THE NIGHT SKY?
         </mj-text>
-        <mj-image src="assets/solar-eclipse.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="0" href="#" target="_blank" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/solar-eclipse.jpg" alt="A solar eclipse at 99% totality, when it produces a diamond-ring effect" title="A solar eclipse at 99% totality, when it produces a diamond-ring effect" width="640px" padding="0" href="#" target="_blank" />
         <mj-text mj-class="heading" font-size="10px" font-weight="bold" align="right" line-height="11px" letter-spacing="2px" color="#cccccc" padding="8px 10px 0 0">
           PHOTOGRAPH BY BEN HORTON, NAT GEO IMAGE COLLECTION
         </mj-text>
@@ -513,14 +513,14 @@
     <mj-raw>
       <!-- Banner -->
     </mj-raw>
-    <mj-section padding="0 0 20px 0" css-class="mobile-hidden">
+    <mj-section padding="0" css-class="mobile-hidden">
       <mj-column width="100%">
-        <mj-image src="assets/desktop-banner.jpg" href="#" target="_blank" padding="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/desktop-banner-min.jpg" alt="NGM" href="#" target="_blank" padding="0" />
       </mj-column>
     </mj-section>
-    <mj-section padding="0 0 20px 0" css-class="desktop-hidden">
+    <mj-section padding="0" css-class="desktop-hidden">
       <mj-column width="100%">
-        <mj-image src="assets/mobile-banner.jpg" href="#" target="_blank" padding="0" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/mobile-banner-min.JPG" alt="NGM" href="#" target="_blank" padding="0" />
       </mj-column>
     </mj-section>
 
