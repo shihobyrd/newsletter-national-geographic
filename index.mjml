@@ -91,10 +91,20 @@
       display: block!important;
       }
 
-      .footer-link {
-      display: block !important;
+      .nav-padding td {
+      padding-top: 0 !important;
       }
 
+      .footer-link {
+      display: block !important;
+      padding: 15px !important;
+      border-right: none !important;
+      border-bottom: 1px solid #cccccc!important;
+      }
+
+      .footer-text td {
+      padding: 0 25px 0 25px !important;
+      }
       }
     </mj-style>
 
