@@ -47,7 +47,7 @@
       }
       }
 
-      @media only screen and (max-width : 480px) {
+      @media only screen and (max-width : 640px) {
       .mobile-center div {
       text-align: center !important;
       }
@@ -66,10 +66,14 @@
       line-height: 16px !important;
       }
 
+      .mobile-text {
+      padding-left: 25px!important;
+      padding-right: 25px!important;
+      }
+
       .mobile-text div {
       font-size: 14px !important;
       line-height: 20px !important;
-      padding: 0 25px 0 25px;
       }
 
       .credit-text div {}
@@ -157,7 +161,7 @@
     </mj-raw>
     <mj-section padding="0">
       <mj-column>
-        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="center" font-weight="normal" padding="0 0 8px 0" css-class="mobile-text">
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="center" font-weight="normal" padding="0 40px 8px 40px" css-class="mobile-text">
           <em>In <strong>today’s newsletter</strong>, we plumb the amazing <a href="#" target="_blank" class="text-link">medical</a>, <a href="#" target="_blank" class="text-link">archaeological</a>, and <a href="#" target="_blank" class="text-link">scientific</a> breakthroughs of the year. Plus, do tea and chicken soup really <a href="#" target="_blank" class="text-link">help a cold</a>?</em>
         </mj-text>
         <mj-image src="assets/insect-brain.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="20px 0 0 0" href="#" target="_blank" />
@@ -167,8 +171,8 @@
       </mj-column>
     </mj-section>
     <mj-section padding="0">
-      <mj-column width="600px">
-        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 0 10px 0" css-class="mobile-text">
+      <mj-column>
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 40px 10px 40px" css-class="mobile-text">
           <br>
           <strong>2023 finally gave us a treatment</strong> for a disease enfeebling millions of people. The year also brought the power of AI to identify people at higher risk for prostate cancer, demonstrated the mapping of an insect’s brain (above)—and witnessed mice created in an untraditional manner.
           <br>
@@ -193,8 +197,8 @@
       </mj-column>
     </mj-section>
     <mj-section padding="0">
-      <mj-column width="600px">
-        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 0 10px 0" css-class="mobile-text">
+      <mj-column>
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 40px 8px 40px" css-class="mobile-text">
           <br>
           <strong>The lost city:</strong> You’d think centuries of archaeology would have shown us all we need to know about this planet already, but new technology is fueling major discoveries.
           <br>
@@ -387,7 +391,7 @@
     </mj-raw>
     <mj-section padding="0">
       <mj-column>
-        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0">
+        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0" css-class="section-title div">
           IN THE SPOTLIGHT
         </mj-text>
         <mj-image src="assets/blender.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="0" href="#" target="_blank" />
@@ -397,8 +401,8 @@
       </mj-column>
     </mj-section>
     <mj-section padding="0">
-      <mj-column width="600px">
-        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="20px 0 16px 0">
+      <mj-column>
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="20px 40px 16px 40px" css-class="mobile-text">
           <br>
           <strong>What to eat when you're sick:</strong> Colds and flu can sap your appetite, right when you need nutrition the most. These are the foods that will keep your immune system in fighting shape—and a few that <a href="#" target="_blank" class="text-link"><strong>could make you feel worse</strong></a>.
           <br>
@@ -415,7 +419,7 @@
     </mj-raw>
     <mj-section padding="0">
       <mj-column>
-        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0">
+        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0" css-class="section-title div">
           PHOTO OF THE DAY
         </mj-text>
         <mj-image src="assets/Nefertiti.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="0" href="#" target="_blank" />
@@ -425,8 +429,8 @@
       </mj-column>
     </mj-section>
     <mj-section padding="0">
-      <mj-column width="600px">
-        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="20px 0 16px 0">
+      <mj-column>
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="20px 40px 16px 40px" css-class="mobile-text">
           <br>
           <strong>Much more than a pretty face:</strong> On this day in 1912, a bust of <strong>Nefertiti</strong>—a former queen and one of the most mysterious and powerful women in ancient Egypt—was discovered during an excavation among the ruins at Amarna. <a href="#" target="_blank" class="text-link"><strong>This stunning bust</strong></a> (above) is perhaps the most famous image of a woman whom some scholars believe ruled as pharaoh after the death of husband <strong>Amenhotep IV</strong>.
           <br>
@@ -443,7 +447,7 @@
     </mj-raw>
     <mj-section padding="0">
       <mj-column>
-        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0">
+        <mj-text mj-class="heading" align="center" font-weight="bold" font-size="24px" color="#000000" letter-spacing="2px" line-height="32px" padding="20px 0 10px 0" css-class="section-title div">
           WHAT’S AHEAD IN THE NIGHT SKY?
         </mj-text>
         <mj-image src="assets/solar-eclipse.jpg" alt="Hundreds of interconnected multicoloured balls and strings forming a larger structure" title="Hundreds of interconnected multicoloured balls and strings forming a larger structure" width="640px" padding="0" href="#" target="_blank" />
@@ -453,8 +457,8 @@
       </mj-column>
     </mj-section>
     <mj-section padding="0">
-      <mj-column width="600px">
-        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="20px 0 15px 0">
+      <mj-column>
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="20px 40px 15px 40px" css-class="mobile-text">
           <br>
           <strong>9 must-see night sky events in 2024:</strong> Mark your calendar now for an array of celestial wonders, including <a href="#" target="_blank" class="text-link"><strong>two solar eclipses</strong></a>, a pair of comets, and numerous planetary encounters, writes our night sky specialist, <strong>Andrew Fazekas</strong>.
           <br>
@@ -470,8 +474,8 @@
       <!-- Soundtrack, Curator, and Editor -->
     </mj-raw>
     <mj-section padding="10px 0 40px 0">
-      <mj-column width="600px">
-        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0">
+      <mj-column>
+        <mj-text mj-class="text" font-size="16px" line-height="24px" color="#222222" align="left" font-weight="normal" padding="0 40px 0 40px" css-class="mobile-text">
           <strong>Today’s soundtrack:</strong> <a href="#" target="_blank" class="text-link">Luz de Luna,</a> <strong>Natalia Lafourcade</strong>
           <br>
           <br>
