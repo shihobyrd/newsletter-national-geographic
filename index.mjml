@@ -48,12 +48,11 @@
       }
 
       @media only screen and (max-width : 640px) {
+      .mobile-center {
+      width: 100% !important;
+      }
       .mobile-center div {
       text-align: center !important;
-      }
-
-      a.hide {
-      display: none;
       }
 
       .header-title div {
@@ -76,11 +75,20 @@
       line-height: 20px !important;
       }
 
-      .credit-text div {}
-
       .section-title div {
       font-size: 20px !important;
       line-height: 28px !important;
+      }
+
+      .mobile-hidden {
+      display: none;
+      }
+
+      .mobile-right-hidden {
+      width: 0% !important;
+      }
+      .desktop-hidden {
+      display: block!important;
       }
 
       }
@@ -108,6 +116,10 @@
         letter-spacing: 2px;
       }
 
+      .desktop-hidden {
+        display: none;
+      }
+
       a.footer-link {
         font-family: CenturyGothic, AppleGothic, 'Gill Sans', 'Gill Sans MT', sans-serif;
         color: #ffffff;
@@ -127,14 +139,14 @@
       <!-- Top Bar -->
     </mj-raw>
     <mj-section full-width="full-width" background-color="#000000" padding="10px 12px">
-      <mj-column css-class="mobile-center">
+      <mj-column css-class="mobile-center" width="50%">
         <mj-text align="left" mj-class="heading">
           <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;">PICTURES OF THE YEAR</a>
         </mj-text>
       </mj-column>
-      <mj-column>
-        <mj-text align="right" mj-class="heading">
-          <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;" class="hide">VIEW ONLINE</a>
+      <mj-column width="50%" css-class="mobile-right-hidden">
+        <mj-text align="right" mj-class="heading" css-class="mobile-hidden">
+          <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;">VIEW ONLINE</a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -487,9 +499,14 @@
     <mj-raw>
       <!-- Banner -->
     </mj-raw>
-    <mj-section padding="0 0 20px 0">
+    <mj-section padding="0 0 20px 0" css-class="mobile-hidden">
       <mj-column width="100%">
         <mj-image src="assets/desktop-banner.jpg" href="#" target="_blank" padding="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 0 20px 0" css-class="desktop-hidden">
+      <mj-column width="100%">
+        <mj-image src="assets/mobile-banner.jpg" href="#" target="_blank" padding="0" />
       </mj-column>
     </mj-section>
 
