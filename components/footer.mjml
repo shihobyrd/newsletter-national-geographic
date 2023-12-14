@@ -13,24 +13,20 @@
     </mj-column>
   </mj-section>
 
-  <mj-section padding="0">
-    <mj-column padding="35px 0 35px 0">
-      <mj-table padding="0">
-        <tr>
-          <td align="center" padding="5px 0 0 0">
-            <a href="#" target="_blank">
-              <image src="/assets/facebook.png" alt="Facebook" title="Facebook" padding="0" width="28px">
-            </a>
-            <a href="#" target="_blank">
-              <image src="/assets/twitter.png" alt="Twitter" title="Twitter" padding="0" width="28px">
-            </a>
-            <a href="#" target="_blank">
-              <image src="/assets/instagram.png" alt="Instagram" title="Instagram" padding="0" width="28px">
-            </a>
-          </td>
-        </tr>
-      </mj-table>
+  <mj-section padding="35px 0 35px 0">
+    <mj-group>
+      <mj-column width="45%">
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/facebook.png" alt="Facebook" title="Facebook" padding="0" width="28px" href="#" target="_blank" align="right">
+      </mj-column>
+      <mj-column width="10%">
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/twitter.png" alt="Twitter" title="Twitter" padding="0" width="28px" href="#" target="_blank">
+      </mj-column>
+      <mj-column width="45%">
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/instagram.png" alt="Instagram" title="Instagram" padding="0" width="28px" href="#" target="_blank" align="left">
+      </mj-column>
+    </mj-group>
   </mj-section>
+
 
   <mj-section padding="0 0 50px 0">
     <mj-column css-class="footer-text">

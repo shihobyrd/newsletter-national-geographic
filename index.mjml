@@ -144,6 +144,10 @@
         line-height: 14px;
         font-weight: bold;
       }
+
+      .mobile-center {
+        width: 50% !important;
+      }
     </mj-style>
   </mj-head>
 
@@ -153,12 +157,12 @@
       <!-- Top Bar -->
     </mj-raw>
     <mj-section full-width="full-width" background-color="#000000" padding="10px 12px">
-      <mj-column css-class="mobile-center" width="50%">
+      <mj-column css-class="mobile-center">
         <mj-text align="left" mj-class="heading">
           <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;">PICTURES OF THE YEAR</a>
         </mj-text>
       </mj-column>
-      <mj-column width="50%" css-class="mobile-right-hidden">
+      <mj-column css-class="mobile-center mobile-right-hidden">
         <mj-text align="right" mj-class="heading" css-class="mobile-hidden">
           <a href="#" target="_blank" style="color: #ffffff; text-decoration: none;letter-spacing:2.4px; font-size: 8px; line-height: 10px;">VIEW ONLINE</a>
         </mj-text>
@@ -170,7 +174,7 @@
     </mj-raw>
     <mj-section padding="45px 0 60px">
       <mj-column>
-        <mj-image src="assets/logo.png" alt="National Geographic logo" title="National Geographic logo" width="200px" href="#" target="_blank" padding="20px 0 30px" />
+        <mj-image src="https://raw.githubusercontent.com/shihobyrd/newsletter-national-geographic/main/assets/logo.png" alt="National Geographic logo" title="National Geographic logo" width="200px" href="#" target="_blank" padding="20px 0 30px" />
         <mj-text mj-class="heading" color="#000000" align="center" font-size="30px" line-height="32px" font-weight="bold" letter-spacing="1px" padding-bottom="10px" css-class="header-title">
           A LOST CITY, NEW WORLDS,
           <br>
